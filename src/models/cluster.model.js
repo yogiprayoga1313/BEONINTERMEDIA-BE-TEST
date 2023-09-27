@@ -2,7 +2,7 @@ const db = require('../helpers/db.helpers')
 
 exports.findAllCluster = async function (page, limit, search, sort, sortBy) {
   page = parseInt(page) || 1
-  limit = parseInt(limit) || 10
+  limit = parseInt(limit) || 20
   search = search || ""
   sort = sort || "id"
   sortBy = sortBy || "ASC"

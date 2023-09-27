@@ -67,7 +67,7 @@ exports.getOneCluster = async (request, response) => {
 }
 
 exports.createCluster = async (request, response) => {
-    // return console.log(request.body)
+    // console.log(request.body)
     try{
         if(!request.body.name,
             !request.body.cluster_nomer,
